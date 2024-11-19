@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealrhyFood</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<style>
+  
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(36, 34, 35) !important;
+    background-color: rgb(219, 208, 208);
+    /* position: fixed; */
+    z-index: 999999999;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 600px;
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 400px;
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    /* text-decoration: line-through; */
+    opacity: 0.8;
+}
+
+</style>
+</head>
+<body>
+    <nav class="container ">
+        <a href="#" class="logo">Tank Gym</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+           
+        </ul>
+    </nav>
+    
+    <div class="Healthy " style="background-color: rgba(211, 210, 210, 0.2);" id="Healthy">
+        <h1>Healthy Food</h1>
+
+        <section class="items ">
+
+            <div class=" item">
+                <img src="./images/img9.jpg" alt="">
+                <h4>Lino</h4>
+                <button onclick="gotolink(this)"
+                    value="https://x-vendor.com/shop/%D8%B4%D9%88%D9%81%D8%A7%D9%86-%D9%84%D9%8A%D9%86%D9%88/">Order</button>
+            </div>
+            <div class="item">
+                <img src="./images/img10.jpg" alt="">
+                <h4>Protein</h4>
+                <button onclick="gotolink(this)"
+                    value="https://ifit-eg.com/?gclid=CjwKCAjwmJeYBhAwEiwAXlg0AXETI84iZzd0Faiz6vBYumhQhIq2eXNynPxqkefWnEHkuhkGbE9dyBoCkZcQAvD_BwE">Order</button>
+            </div>
+            <div class="item">
+                <img src="./images/img11.jpg" alt="">
+                <h4>Vegetables</h4>
+                <button onclick="gotolink(this)"
+                    value="https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm">Order</button>
+            </div>
+            <div class="item">
+                <img src="./images/img12.jpg" alt="">
+                <h4>Fruits</h4>
+                <button onclick="gotolink(this)"
+                    value="https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm">Order</button>
+            </div>
+            <div class="item">
+                <img src="./images/img14.jpg" alt="">
+                <h4>Fish</h4>
+                <button onclick="gotolink(this)" value="https://www.eatthis.com/health-benefits-of-fish/">Order</button>
+            </div>
+            <div class="item">
+                <img src="./images/img15.jpg" alt="">
+                <h4>Vegetables</h4>
+                <button onclick="gotolink(this)"
+                    value="https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/vegetables-and-fruits/">Order</button>
+            </div>
+
+        </section>
+    </div>
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

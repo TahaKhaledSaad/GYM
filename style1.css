@@ -1,0 +1,183 @@
+/* 
+.nav-bac {
+    background-color: rgba(111, 124, 120, 0.24);
+    height: 85px;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(36, 34, 35) !important;
+    background-color: rgb(219, 208, 208);
+    z-index: 999999999;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 600px;
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 400px;
+    color: rgb(73, 70, 70);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+    border: 5px ;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.about{
+    
+    background-color: rgba(111, 124, 120, 0.24);
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    text-align: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    /* margin: 20px; */
+    /* margin-top: -85px; */
+}
+
+.intro-textUS {
+    background-image: url(./img/adult-blur-close-up-241456.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-size:cover;
+    box-sizing: border-box;
+    text-align: center;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    margin-top: -85px;
+}
+
+.intro-textUS h1 {
+    color: #fff;
+    padding: 20px;
+    position:relative;
+    top: 200px;
+    background-color: rgba(0,0, 0, 0.3);
+    margin:  90px;
+}
+
+.text-span h2{
+    position: relative;
+    margin: 0;
+    font-size: 4em;
+    font-weight: 900;
+    color: #fff;
+    z-index: 1;
+    overflow: hidden;
+    background-color: black;
+    /* width: 98%; */
+}
+
+
+
+.text-span h2:before{
+    content: ' ';
+    position: absolute;
+    left: 115%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(9000deg,transparent 0%,#000 5%,#000 100%);
+    animation:  animate 1.5s linear infinite;
+}
+@keyframes animate {
+    0%{
+        left:0%
+    }
+    100%{
+        left: 110%;
+    }
+}
+
+h2 span{
+    color: #ff022c;
+}
+
+.pp{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+
+.card-body1{
+    background-color: black;
+    color: #fff;
+}
+
+.card-body1 span{
+    color: #ff022c;
+    font-size: larger;
+}
+
+.card-body1 h5{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.row img:hover {
+    transform: scale(1.05);
+    height: 410px;
+}
+
+.boss h3:hover {
+    transform: scale(2.04);
+    margin: 20px;
+}
+
+.boss h3 span:hover{
+    color: #ff022c;
+}
+
+.container img {
+    height: 400px;
+}
+
+#capten3,
+#capten4,
+#capten4_1,
+#capten5,
+#capten6,
+#capten7,
+#capten8,
+#capten9,
+#capten10,
+#capten11,
+#capten12,
+#capten13{
+
+    background-color: black; 
+    height: 400px; 
+    color: aliceblue;
+    padding: 20px;
+    overflow: auto;
+
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    color: whitesmoke;
+}

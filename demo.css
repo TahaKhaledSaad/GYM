@@ -1,0 +1,135 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+nav .logo {
+    color: rgb(137, 152, 77);
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+span {
+    color: rgb(137, 152, 77);
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    
+    padding: 8px;
+    border-radius: 15px;
+    background-color: lightblue;
+    color: #222;
+}
+
+/* my hover  */
+nav ul li a:hover {
+    
+    color: #222;
+    background-color: lightcyan;
+}
+
+.card {
+
+    box-shadow: 10px 10px 20px rgb(118, 118, 172) !important;
+    border-radius: 0% 0% 8px 8px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .1);
+
+}
+
+
+img {
+    border-radius: 100%;
+}
+
+.title {
+    text-align: center;
+    color: rgb(53, 53, 128);
+    text-shadow: 10px 10px 5px rgb(118, 118, 172);
+
+}
+
+.title h2 {
+    font-weight: bold;
+}
+
+.section2 {
+    background-color: rgba(0, 0, 0, .1);
+    /* border-radius: 5px; */
+    text-align: center;
+    border: 3px solid lightblue;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 20px rgb(118, 118, 172); */
+    /* width: 23%; */
+    /* margin: px; */
+    padding: 20px 0 20px 0;
+
+}
+
+.section2 p,
+.section2 h4,
+.section2 h5 {
+    line-height: 23px;
+    letter-spacing: 2px;
+}
+
+
+
+.footer {
+    padding: 8px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.btnContact {
+    text-align: center;
+}
+
+.btnContact button {
+    color: rgb(53, 53, 128);
+    border: 2px solid rgb(53, 53, 128);
+    background-color: transparent;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btnContact button:hover {
+
+
+    border: 2px solid rgb(53, 53, 128);
+    color: white;
+    background-color: rgb(53, 53, 128);
+    padding: 5px;
+    border-radius: 5px;
+
+}
